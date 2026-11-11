@@ -17,7 +17,7 @@ export interface Skill {
 
 export interface Project {
   title: string
-  category: string
+  category: string | string[]
   image: string
   description: string
   tech: string[]
@@ -161,12 +161,12 @@ export const content: Record<'en' | 'pt', LanguageContent> = {
       portfolioTitle: 'Portfolio',
       previewLabel: 'Preview',
       visitLabel: 'Visit',
-      categories: ['all', 'backend', 'full-stack'],
+      categories: ['all', 'backend', 'full-stack', 'course'],
       projects: [
         {
           title: 'E-commerce Hub',
           category: 'backend',
-          image: '/progress.png',
+          image: '/ecommerce-painel.png',
           description: 'Multi-tenant B2B SaaS platform for e-commerce synchronization, with async processing and autoscaling.',
           tech: ['Java', 'Spring Boot', 'RabbitMQ', 'Redis', 'MySQL', 'Docker', 'Kubernetes'],
           liveUrl: '',
@@ -198,6 +198,15 @@ export const content: Record<'en' | 'pt', LanguageContent> = {
           tech: ['Java', 'Spring Boot', 'Spring Security', 'OAuth2', 'JWT'],
           liveUrl: '',
           githubUrl: 'https://github.com/Raul-guii/Button-Security',
+        },
+        {
+          title: 'Order Food',
+          category: 'course',
+          image: '/order-food.png',
+          description: 'order food plataform',
+          tech: ['Java', 'Spring Boot', 'RabbitMQ', 'Redis', 'MySQL', 'Docker', 'Kubernetes'],
+          liveUrl: '',
+          githubUrl: 'https://github.com/Raul-guii/order-food',
         },
       ],
     },
@@ -294,7 +303,7 @@ export const content: Record<'en' | 'pt', LanguageContent> = {
         {
           title: 'E-commerce Hub',
           category: 'backend',
-          image: '/andamento.png',
+          image: '/ecommerce-painel.png',
           description: 'Plataforma SaaS multi-tenant B2B para sincronização de e-commerce, com processamento assíncrono e autoscaling.',
           tech: ['Java', 'Spring Boot', 'RabbitMQ', 'Redis', 'MySQL', 'Docker', 'Kubernetes'],
           liveUrl: '',
