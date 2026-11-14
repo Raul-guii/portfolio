@@ -96,7 +96,7 @@ export const content: Record<'en' | 'pt', LanguageContent> = {
     profileData: {
       name: 'Raul',
       title: 'Backend Developer',
-      avatar: '/eu.jpg',
+      avatar: '/eu2.png',
       email: 'raulawp460@gmail.com',
       location: 'Ceilândia, DF - Brazil',
       social: {
@@ -149,12 +149,12 @@ export const content: Record<'en' | 'pt', LanguageContent> = {
       ],
       experience: [],
       skills: [
-        { name: 'Java / Spring Boot', level: 85 },
+        { name: 'Java / Spring Boot', level: 80 },
         { name: 'Spring Security / JWT / OAuth2', level: 80 },
-        { name: 'PostgreSQL / MySQL', level: 80 },
-        { name: 'Docker / Kubernetes', level: 70 },
-        { name: 'Angular / TypeScript', level: 70 },
-        { name: 'RabbitMQ / Redis', level: 70 },
+        { name: 'PostgreSQL / MySQL', level: 50 },
+        { name: 'Docker / Kubernetes', level: 30 },
+        { name: 'Angular / TypeScript', level: 40 },
+        { name: 'RabbitMQ / Redis', level: 30 },
       ],
     },
     portfolioData: {
@@ -233,7 +233,7 @@ export const content: Record<'en' | 'pt', LanguageContent> = {
     profileData: {
       name: 'Raul',
       title: 'Desenvolvedor Backend',
-      avatar: '/eu.jpg',
+      avatar: '/eu2.png',
       email: 'raulawp460@gmail.com',
       location: 'Ceilândia, DF - Brasil',
       social: {
@@ -286,12 +286,12 @@ export const content: Record<'en' | 'pt', LanguageContent> = {
       ],
       experience: [],
       skills: [
-        { name: 'Java / Spring Boot', level: 85 },
+        { name: 'Java / Spring Boot', level: 80 },
         { name: 'Spring Security / JWT / OAuth2', level: 80 },
-        { name: 'PostgreSQL / MySQL', level: 80 },
-        { name: 'Docker / Kubernetes', level: 70 },
-        { name: 'Angular / TypeScript', level: 70 },
-        { name: 'RabbitMQ / Redis', level: 70 },
+        { name: 'PostgreSQL / MySQL', level: 50 },
+        { name: 'Docker / Kubernetes', level: 30 },
+        { name: 'Angular / TypeScript', level: 40 },
+        { name: 'RabbitMQ / Redis', level: 30 },
       ],
     },
     portfolioData: {
