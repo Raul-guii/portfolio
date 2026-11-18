@@ -96,7 +96,7 @@ export const content: Record<'en' | 'pt', LanguageContent> = {
     profileData: {
       name: 'Raul',
       title: 'Backend Developer',
-      avatar: '/eu2.png',
+      avatar: '/eu3.0.png',
       email: 'raulawp460@gmail.com',
       location: 'Ceilândia, DF - Brazil',
       social: {
@@ -233,7 +233,7 @@ export const content: Record<'en' | 'pt', LanguageContent> = {
     profileData: {
       name: 'Raul',
       title: 'Desenvolvedor Backend',
-      avatar: '/eu2.png',
+      avatar: '/eu3.0.png',
       email: 'raulawp460@gmail.com',
       location: 'Ceilândia, DF - Brasil',
       social: {
